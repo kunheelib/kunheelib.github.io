@@ -12,21 +12,23 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark"  # 전체적인 블로그의 색감을 정하는 값입니다.
+                           # "default" "air", "aqua", "contrast", "dark"
+                           # "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR"    # 블로그의 주요 언어입니다. 한국어로 보려고 ko-KR로 설정했습니다.
+title                    : "거니의 끄적끄적 Blog"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+subtitle                 : "version 1.0"              # 화면 title 하단에 있는 소제목입니다.
+name                     : "이건희(Lee Kunhee)"      # 화면 하단 영역의 이름입니다.
+description              : "매일 반복하는 공부 습관"   # 설명란입니다. (어디 적용되는지 모르겠네요...) 
+url                      : "https://kunheelib.github.io/" # 현재의 블로그 url 입니다.
+baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
+repository               : "https://github.com/kunheelib/kunheelib.github.io" # Github Repo url입니다.
+teaser                   : # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결됩니다.
+logo                     : # 화면에 보여지는 logo 이미지입니다. "assets/images"로 세팅합니다.
+masthead_title           : "정리가 재밌는 개발자"     # 화면 title 입니다.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -104,15 +106,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Lee Kunhee"                  # 이름 영역입니다.
+  avatar           : "images/profile/profile.jpg"     # 프로필 사진 경로입니다.
+  bio              : "**기록이 자산!!**<br>매일 공부하고 있습니다.<br>소통을 좋아합니다."
+                     # biography의 약칭으로, 자기소개를 적으시면 됩니다.
+                     # 줄바꿈은 <br>로 굵은 글씨는 **글씨** 로 표기해주세요. 
+  location         : "Republic of Korea"            # 지역 입니다. 
+  email            : # 이메일 주소입니다. (links에서 작성할 수 있기 때문에 생략하였습니다.)
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:gunhee0323@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,10 +128,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/kunheelib"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/k.unh.ee"
 
 # Site Footer
 footer:
@@ -140,7 +144,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/kunheelib"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -149,7 +153,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/k.unh.ee"
 
 
 # Reading Files
@@ -218,7 +222,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 15 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -290,3 +294,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
