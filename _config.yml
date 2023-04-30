@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Lee Kunhee"                  # 이름 영역입니다.
   avatar           : "images/profile/profile.jpg"     # 프로필 사진 경로입니다.
-  bio              : "**기록이 자산!!**<br>매일 공부하고 있습니다.<br>소통을 좋아합니다."
+  bio              : "**끄적끄적**"
                      # biography의 약칭으로, 자기소개를 적으시면 됩니다.
                      # 줄바꿈은 <br>로 굵은 글씨는 **글씨** 로 표기해주세요. 
   location         : "Republic of Korea"            # 지역 입니다. 
