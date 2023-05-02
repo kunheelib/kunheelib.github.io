@@ -33,7 +33,7 @@ masthead_title           : "정리가 재밌는 개발자"     # 화면 title �
 words_per_minute         : 200
 
 comments:
-  provider    : "disqus"                                # comment 처리 사이트 명칭 기재
+  provider    : "utterances"                                # comment 처리 사이트 명칭 기재
               # false (default), "disqus", "discourse", "facebook"
               # "staticman", "staticman_v2", "utterances", "custom"
   disqus: 
