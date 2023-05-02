@@ -47,7 +47,7 @@ toc_icon: "blog"
   만약 정해진 패턴이 아닌 다른 형식의 Repository name을 지정할 경우
   별도로 GitHub Pages 활성화 설정을 해주면 됩니다.<br><br>
   본 포스팅에서는 입문자를 위해 작성하였기 때문에 Pages 설정을 다루지 않겠습니다.<br>
-  Pages 설정은 [GitHub-Pages]() 여기를 참조해주세요!
+  Pages 설정은 [**GitHub-Pages**]() 여기를 참조해주세요!
 {: .notice--warning}
 
 ## [1.3] Git 설치

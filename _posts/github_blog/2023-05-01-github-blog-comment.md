@@ -15,7 +15,6 @@ toc_icon: "blog"
 
 # [1] 준비하기
 
-## [1.1] utterances 설치
 [**utterances**](https://github.com/apps/utterances) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
