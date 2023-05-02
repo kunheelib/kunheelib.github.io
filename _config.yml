@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark"  # 전체적인 블로그의 색감을 정하는 값입니다.
+minimal_mistakes_skin    : "air"  # 전체적인 블로그의 색감을 정하는 값입니다.
                            # "default" "air", "aqua", "contrast", "dark"
                            # "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -31,10 +31,13 @@ logo                     : # 화면에 보여지는 logo 이미지입니다. "as
 masthead_title           : "정리가 재밌는 개발자"     # 화면 title 입니다.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  provider    : "disqus"                                # comment 처리 사이트 명칭 기재
+              # false (default), "disqus", "discourse", "facebook"
+              # "staticman", "staticman_v2", "utterances", "custom"
+  disqus: 
+    shortname            : "kunheelib-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -291,7 +294,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.

@@ -1,27 +1,27 @@
 ---
-title: "[GitHub] 블로그 만들기"
+title: "[GitHub Blog] 블로그 시작하기"
 categories:
-  - Blog
+  - blog
 tags:
   - minimal mistakes
   - jekyll
   - blog
 toc: true
 toc_sticky: true
-toc_label: "GITHUB BLOG 시작"
+toc_label: "GitHub Blog  시작"
 toc_icon: "blog"
 ---
 
 # [1] 준비하기
 
-## [1.1] GitHub 가입하기
+## [1.1] GitHub 가입
 [GitHub](https://github.com/) 링크에 접속하여 가입을 진행합니다.
 
 ![images](https://user-images.githubusercontent.com/131929869/235370616-b9b806d8-ac02-4c5f-a957-95fa0c82564f.png)
 
 ![images](https://user-images.githubusercontent.com/131929869/235370617-d309660d-de94-42a7-8ab4-5b46c035166a.png)
 
-## [1.2] GitHub Repository 생성하기
+## [1.2] Repository 생성
 💡 `Git Repository`란 `Git`으로 관리하는 저장소 입니다.
 {: .notice--info}
 
@@ -32,7 +32,7 @@ toc_icon: "blog"
 1. 화면 상단의 `+` 를 클릭<br>
 2. `New repository`를 클릭<br>
 3. `Repository Name`을 입력합니다.
-4. `Repository`에 대한 설명을 입력합니다.(선택)<br>
+4. `Repository`에 대한 설명을 입력합니다.(선택사항)<br>
 5. 접근 제어를 설정합니다. (기본값 : Public)<br>
 6. `a README file` 선택<br>
 7. `Create repository` 클릭<br>
@@ -47,7 +47,7 @@ toc_icon: "blog"
   Pages 설정은 [GitHub-Pages]() 여기를 참조해주세요!
 {: .notice--warning}
 
-## [1.3] Git 설치 및 기본 설정
+## [1.3] Git 설치
 [Git](https://git-scm.com/) 링크에 접속하여 이미지를 참고해주세요.
 
 ![image](https://user-images.githubusercontent.com/131929869/235352976-82a9c28d-4b6a-4e09-bf3b-53eee709da4a.png)
@@ -60,8 +60,7 @@ toc_icon: "blog"
 2. 사용자 PC 환경에 맞는 `bit`를 선택합니다.
 3. 설치가 완료되었다면 Git Bash.exe 를 실행합니다.
 
-- - -
-
+## [1.4] Git 기본 설정
 `Git`이 정상적으로 설치가 되었는지 확인합니다.
 
 ```terminal
@@ -74,15 +73,15 @@ $ git config --global user.name "[user]"
 $ git config --global user.email "[user@email.com]"
 ```
 
-## [1.4] Rudy 설치 및 패키지 설치
+## [1.5] Rudy 설치 및 패키지 설치
 [Ruby for Windos](https://rubyinstaller.org/downloads/)에 접속하신 후 이미지와 같은 내용을 확인해주세요.
 
 
 ![images](https://user-images.githubusercontent.com/131929869/235343371-475defc5-6033-4902-868e-727cfb965341.png)
 
 
-❗`jekyll`는 `32bit` 입니다.<br><br>
-따라서 이미지에서 표시한 것과 동일하게 **32Bit(x86)을 설치**해주셔야 합니다.<br>
+❗**jekyll는 `32bit` 입니다.**<br><br>
+따라서 이미지에서 표시한 것과 동일하게 **`32Bit`(x86)을 설치**해주셔야 합니다.<br>
 만약 64Bit(x64)로 설치시 명령어 등 세팅할 때 오류가 빈번하게 발생합니다.
 {: .notice--danger}
 
@@ -93,9 +92,14 @@ ruby 3.2.2 (2023-03-30 revision e51014f9c0) [i386-mingw32]
 ```
 
 
-### [1.4.1] jekyll 설치
-💡 `jekyll`란 `Ruby`를 통해 개발된 정적 웹 환경을 위한 프레임워크입니다.
+### [1.5.1] jekyll 설치
+
+💡 `jekyll` 이란 **Ruby**를 통해 개발된 **정적 웹** 환경을 위한 프레임워크입니다.
 {: .notice--info}
+
+💡 `정적 웹` 이란 안녕하세요. 입니다.
+{: .notice--info}
+
 `jekyll`를 설치 합니다.
 ```terminal
 $ gem install jekyll
@@ -107,11 +111,14 @@ $ jekyll -v
 jekyll 4.3.2
 ```
 
-### [1.4.2] bundler 설치
-💡 `bundler`란 Ruby에서 의존성을 관리하는 도구입니다.<br>
-`Gemfile`이라는 파일에서 의존성을 명시하게되면 `bundler`가 내용을 기반으로 필요한 라이브러리를 설치합니다.<br><br>
-💭`Gem`이란 라이브러리의 개념이며, `Ruby`의 다양한 `Gem`들을 `Gemfile`에 작성합니다.
+### [1.5.2] bundler 설치
+💡**`bundler` 이란** **Ruby**에서 의존성을 관리하는 도구입니다.<br><br>
+**Gemfile**이라는 파일에서 의존성을 명시하게되면 `bundler`가 내용을 기반으로 필요한 라이브러리를 설치합니다.
 {: .notice--info}
+
+💡**`Gem` 이란** 라이브러리의 개념이며, **Ruby**의 다양한 `Gem`들을 **Gemfile**에 작성합니다.
+{: .notice--info}
+
 `bundler`를 설치합니다.
 ```terminal
 $ gem install bundler
@@ -124,7 +131,7 @@ Bundler version 2.4.12
 `Jekyll` 서버를 실행합니다.<br>
 `Git`에 파일을 업로드하기 전에 작성한 `markdown(.md)` 내용을 웹상에서 확인할 수 있습니다.
 
-💡 `markdown(.md)`이란 일반 텍스트 기반의 경량 마크업 언어입니다.<br>
+💡 **`markdown(.md)` 란** 일반 텍스트 기반의 경량 마크업 언어입니다.<br>
 {: .notice--info}
 ```terminal
 $ bundle exec jekyll serve
@@ -132,18 +139,18 @@ $ bundle exec jekyll serve
 
 
 # [2] 연결하기
-## GitHub에 있는 저장소 로컬에 복제하기
-생성된 `Git Repository`를 사용자의 로컬 폴더에 복제를 합니다.
+## Repository 복제
+생성된 `GitHub Repository`를 사용자의 로컬 폴더에 복제를 합니다.
 ```terminal
 $ git clone [GitHub Repository URL]
 ```
-## Git 저장소 초기화 
+## Repository 초기화 
 현재 위치에서 로컬 저장소를 생성합니다.<br>
 명령어를 입력하시면 현재 위치에 `.git` 폴더가 생성됩니다.
 ```terminal
 $ git init
 ```
-## Git 저장소 연결
+## Repository 연결
 원격 저장소(Git)에 연결합니다.
 ```terminal
 $ git remote add origin [GitHub Repository URL]
