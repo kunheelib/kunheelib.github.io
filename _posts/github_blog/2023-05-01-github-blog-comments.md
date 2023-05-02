@@ -20,8 +20,8 @@ toc_icon: "blog"
 
 ![images](https://user-images.githubusercontent.com/131929869/235621675-4e3c95a4-4166-4e11-ad63-ce1d7907531d.png)
 >
- 1️⃣ **Install** 버튼 클릭<br><br>
- ❓만약 이미 설치되어 있는 경우 **Configure**가 표시
+ 1️⃣ **Install** 버튼 클릭<br>
+ : 만약 이미 설치되어 있는 경우 **Configure**가 표시
 
 ![images](https://user-images.githubusercontent.com/131929869/235621684-e7563b69-0d72-414c-84a1-1122a51f4727.png)
 
@@ -44,15 +44,16 @@ toc_icon: "blog"
 **블로그 포스트와 이슈 매핑 방법에 대한 설정합니다.**
 {: .notice}
 >
- 6️⃣ **Issue title contains page pathname** 선택<br><br>
- 본 포스팅에서는 **블로그 글 경로를 이슈의 제목**으로 설정했습니다.
+ 6️⃣ **Issue title contains page pathname** 선택<br>
+ : 본 포스팅에서는 **블로그 글 경로를 이슈의 제목**으로 설정했습니다.
 
 ![images](https://user-images.githubusercontent.com/131929869/235621688-32d0e627-992d-4e5a-b601-df6918bd6f1a.png)
 
 **이슈 라벨과 테마를 설정합니다.**
 {: .notice}
 >
- 7️⃣ 본 포스팅에서는 **default**값으로 설정했습니다.
+ 7️⃣ 본인이 원하는 내용을 입력 및 선택
+ : 본 포스팅에서는 **default**값으로 설정했습니다.
 
 ![images](https://user-images.githubusercontent.com/131929869/235621693-e2744837-ec6a-4894-b6af-1a9786dedd51.png)
 
