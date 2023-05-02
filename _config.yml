@@ -25,7 +25,7 @@ name                     : "이건희(Lee Kunhee)"      # 화면 하단 영역�
 description              : "매일 반복하는 공부 습관"   # 설명란입니다. (어디 적용되는지 모르겠네요...) 
 url                      : "https://kunheelib.github.io/" # 현재의 블로그 url 입니다.
 baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
-repository               : "https://github.com/kunheelib/kunheelib.github.io" # Github Repo url입니다.
+repository               : "kunheelib/kunheelib.github.io" # Github Repo url입니다.
 teaser                   : # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결됩니다.
 logo                     : # 화면에 보여지는 logo 이미지입니다. "assets/images"로 세팅합니다.
 masthead_title           : "정리가 재밌는 개발자"     # 화면 title 입니다.
