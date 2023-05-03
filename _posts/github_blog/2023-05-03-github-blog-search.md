@@ -4,7 +4,7 @@ excerpt: ""
 categories:
   - blog
 tags:
-  - analytics
+  - google analytics
   - google search console
   - blog
 toc: true
@@ -44,7 +44,7 @@ last_modified_at: 2023-05-03
  3️⃣ **`확인`**을 눌러 소유권 확인 **검증**을 진행 합니다.
 
 ⚠️ **만약 소유권 확인에 실패했다면?**<br><br>
- : **_include** > **head.html**안에<br>
+ : **_includes** > **head.html**안에<br>
    **analytics-providers** > **google-gtag.html**에 있는 **`<script>`**가 모두 반영되어 있는지 확인해주세요.<br>
 {: .notice--warning}
 
@@ -95,6 +95,8 @@ last_modified_at: 2023-05-03
 >
  추가된 항목의 상태가 **성공**인지 확인해주세요.
 
+# [3] 확인하기
+
 ![images](https://user-images.githubusercontent.com/131929869/235868952-83813d80-d03e-4977-b722-e990ea103c0a.png)
 
 >
@@ -106,5 +108,3 @@ last_modified_at: 2023-05-03
   **정상적인 현상**이니 기다려주시면 될 것 같습니다.<br><br>
   추가적으로 Search Console에서 수집한 데이터는 **48시간이 지난 후**에야 Search Console 및 Google Analytics에서 조회가 가능합니다.<br>
 {: .notice--success}
-
-# [3] 확인하기

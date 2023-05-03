@@ -5,6 +5,7 @@ categories:
   - blog
 tags:
   - analytics
+  - google analytics
   - blog
 toc: true
 toc_sticky: true
@@ -107,13 +108,13 @@ analytics:
 **Google Search Console**의 경우 Analytics를 연계 사용하려면 소유권 확인을 위해 **analytics.js** 또는 **gtag.js** 스니펫을 요구합니다.<br>
 추적코드는 페이지의 **`<body>`** 섹션이 아닌 **`<head>`** 섹션 안에 있어야 합니다.<br><br>
 **다음 포스팅에서는 Google Search Console를 다루기 때문에 미리 설정하도록 하겠습니다.**<br><br>
-참조 : [**Search Console**](https://support.google.com/webmasters/answer/9008080?sjid=10563790254224309897-AP&visit_id=638187006711769695-421826421&rd=1)
+참조 : [**Search Console 고객센터**](https://support.google.com/webmasters/answer/9008080?sjid=10563790254224309897-AP&visit_id=638187006711769695-421826421&rd=1)
 {: .notice}
 
 <script src="https://gist.github.com/kunheelib/5ac40b005315558419bb00baccd74295.js"></script>
 
 >
- **_include** > **head.html**안에<br>
+ **_includes** > **head.html**안에<br>
  **analytics-providers** > **google-gtag.html**에 있는 **`<script>`**를 모두 추가합니다.
 
 # [3] 확인하기
