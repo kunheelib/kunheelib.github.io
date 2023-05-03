@@ -1,5 +1,5 @@
 ---
-title: "[GitHub Blog] 블로그 광고 달기"
+title: "[GitHub Blog] 블로그 광고 달기 - Google Adsense"
 excerpt: ""
 categories:
   - blog
@@ -15,7 +15,13 @@ toc_icon: "blog"
 date: 2023-05-03
 last_modified_at: 2023-05-03
 ---
-
+📌 **Google Adsense와 Google Ads의 차이**<br><br>
+ : **Google Adsense**는 **게시자**를 위한 프로그램입니다.<br>
+ 블로그 또는 포럼을 소유하거나 관리하고 있으며 수익을 창출하려고 하는 경우 사용하면 됩니다.<br><br>
+ **Google Ads**는 **광고주**를 위한 프로그램입니다.<br>
+ 비즈니스의 성장과 매출 증대에 중점을 두고 웹사이트 또는 앱에서 제품이나 서비스를 광고하려는 경우 사용하시면 됩니다.<br><br>
+ 참조 : [**Google Adsense 고객센터**](https://support.google.com/adsense/answer/76231?hl=ko)
+{: .notice--primary}
 # [1] 준비하기
 
 [**Google Adsense**](https://adsense.google.com/) 링크에 접속하여 이미지를 참고해주세요.
@@ -72,7 +78,7 @@ last_modified_at: 2023-05-03
 
 >
  2023-05-03<br>
-  : 저도 아직 노출이 되지 않습니다. 적용되면 다시 게재하도록 하겠습니다.
+  : 저도 아직 광고가 표시 되지 않습니다. 승인되면 다시 게재하도록 하겠습니다.
 
 😧 언제 심사가 완료되나요?<br><br>
  : 확인은 일반적으로 며칠 이내에 완료되지만, 경우에 따라 2~4주가 소요 될 수 있습니다.<br><br>

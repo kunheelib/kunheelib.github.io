@@ -1,5 +1,5 @@
 ---
-title: "[GitHub Blog] 블로그 방문 통계 보기"
+title: "[GitHub Blog] 블로그 방문 통계 보기 - Google Analytics"
 excerpt: ""
 categories:
   - blog

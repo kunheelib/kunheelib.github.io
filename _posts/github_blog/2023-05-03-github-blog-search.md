@@ -1,5 +1,5 @@
 ---
-title: "[GitHub Blog] 블로그 검색 노출하기"
+title: "[GitHub Blog] 블로그 검색 노출하기 - Google Search Console"
 excerpt: ""
 categories:
   - blog
