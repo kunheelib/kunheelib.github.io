@@ -1,16 +1,18 @@
 ---
-layout:
 title: "[GitHub Blog] 블로그 방문 통계 보기"
+excerpt: ""
 categories:
   - blog
 tags:
   - analytics
-  - jekyll
   - blog
 toc: true
 toc_sticky: true
 toc_label: "GITHUB BLOG 통계"
 toc_icon: "blog"
+
+date: 2023-05-02
+last_modified_at: 2023-05-03
 ---
 
 # [1] 준비하기
@@ -80,6 +82,17 @@ toc_icon: "blog"
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/235722093-4fa574c2-0c04-4406-8de2-42f0124c95ec.png)
+
+```markdown
+<!--Analytics-->
+analytics:
+  provider               : "google-gtag"
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-MVJML397HK"
+    anonymize_ip         : # true, false (default)
+```
+
 >
  2️⃣ **provier** 를 **google-gtag**로 변경합니다.<br>
 

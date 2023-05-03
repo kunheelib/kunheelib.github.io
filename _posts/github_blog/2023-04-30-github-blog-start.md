@@ -1,5 +1,6 @@
 ---
 title: "[GitHub Blog] 블로그 시작하기"
+excerpt: ""
 categories:
   - blog
 tags:
@@ -10,6 +11,9 @@ toc: true
 toc_sticky: true
 toc_label: "GitHub Blog  시작"
 toc_icon: "blog"
+
+date: 2023-04-30
+last_modified_at: 2023-05-03
 ---
 
 # [1] 준비하기

@@ -1,16 +1,18 @@
 ---
-layout:
 title: "[GitHub Blog] 블로그 댓글 기능 추가하기"
+excerpt: ""
 categories:
   - blog
 tags:
   - utterances
-  - jekyll
   - blog
 toc: true
 toc_sticky: true
 toc_label: "GITHUB BLOG 댓글"
 toc_icon: "blog"
+
+date: 2023-05-01
+last_modified_at: 2023-05-03
 ---
 
 # [1] 준비하기
