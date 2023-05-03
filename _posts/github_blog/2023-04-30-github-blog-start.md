@@ -28,7 +28,7 @@ last_modified_at: 2023-05-03
 
 ## [1.2] Repository 생성
 💡 **Git Repository란?**<br><br>
-**Git**으로 관리하는 저장소 입니다.
+ : **Git**으로 관리하는 저장소 입니다.
 {: .notice--info}
 
 ![images](https://user-images.githubusercontent.com/131929869/235346950-65fa1a34-a4d1-4ba6-a723-562b47960934.png)
@@ -55,8 +55,8 @@ last_modified_at: 2023-05-03
 {: .notice--warning}
 
 ## [1.3] Git 설치
-💡 **Git란?**<br><br>
-협업도구, 소스의 버전관리(형상관리) Tool, 무료 소스 관리 시스템입니다.
+💡**Git란?**<br><br>
+ : 협업도구, 소스의 버전관리(형상관리) Tool, 무료 소스 관리 시스템입니다.
 {: .notice--info}
 
 [**Git**](https://git-scm.com/) 링크에 접속하여 이미지를 참고해주세요.
@@ -95,8 +95,8 @@ $ git config --global user.email "[user@email.com]"
 
 
 ❗**jekyll는 32bit 입니다.**<br><br>
-따라서 이미지에서 표시한 것과 동일하게 **32Bit (x86)을 설치**해주셔야 합니다.<br>
-만약 64Bit (x64)로 설치시 명령어 등 세팅할 때 오류가 빈번하게 발생합니다.
+ : 따라서 이미지에서 표시한 것과 동일하게 **32Bit (x86)을 설치**해주셔야 합니다.<br>
+   만약 64Bit (x64)로 설치시 명령어 등 세팅할 때 오류가 빈번하게 발생합니다.
 {: .notice--danger}
 
 **Ruby**가 설치된 버전을 확인합니다.
@@ -109,12 +109,12 @@ ruby 3.2.2 (2023-03-30 revision e51014f9c0) [i386-mingw32]
 ### [1.5.1] jekyll 설치
 
 💡 **jekyll이란?**<br><br>
-**Ruby**를 통해 개발된 **정적 웹** 환경을 위한 프레임워크입니다.
+ : **Ruby**를 통해 개발된 **정적 웹** 환경을 위한 프레임워크입니다.
 {: .notice--info}
 
 💡 **정적 웹이란?**<br><br>
-**HTML**,**CSS**,**JavaScript** 등 미리 작성된 콘텐츠 페이지를 서버에 저장해두고,<br>
- 클라이언트가 접근하는 시점에 그대로 전달하는 방식의 웹을 말합니다.
+ : **HTML**,**CSS**,**JavaScript** 등 미리 작성된 콘텐츠 페이지를 서버에 저장해두고,<br>
+   클라이언트가 접근하는 시점에 그대로 전달하는 방식의 웹을 말합니다.
 {: .notice--info}
 
 **jekyll** 를 설치 합니다.
@@ -130,12 +130,12 @@ jekyll 4.3.2
 
 ### [1.5.2] bundler 설치
 💡**bundler이란?**<br><br>
-**Ruby** 에서 의존성을 관리하는 도구입니다.<br>
-**Gemfile** 이라는 파일에서 의존성을 명시하게되면 **bundler**가 내용을 기반으로 필요한 라이브러리를 설치합니다.
+ : **Ruby** 에서 의존성을 관리하는 도구입니다.<br>
+  **Gemfile** 이라는 파일에서 의존성을 명시하게되면 **bundler**가 내용을 기반으로 필요한 라이브러리를 설치합니다.
 {: .notice--info}
 
 💡**Gem이란?**<br><br>
-라이브러리의 개념이며, **Ruby** 의 다양한 **Gem**들을 **Gemfile**에 작성합니다.
+ : 라이브러리의 개념이며, **Ruby** 의 다양한 **Gem**들을 **Gemfile**에 작성합니다.
 {: .notice--info}
 
 **bundler** 를 설치합니다.
@@ -151,7 +151,7 @@ Bundler version 2.4.12
 **Git**에 파일을 업로드하기 전에 작성한 **markdown(.md)** 내용을 웹상에서 확인할 수 있습니다.
 
 💡 **markdown(.md)란?**<br><br>
-일반 텍스트 기반의 경량 마크업 언어입니다.
+ : 일반 텍스트 기반의 경량 마크업 언어입니다.
 {: .notice--info}
 ```terminal
 $ bundle exec jekyll serve
@@ -176,8 +176,8 @@ $ git init
 $ git remote add origin [GitHub Repository URL]
 ```
 💡 **branch란?**<br><br>
-독립적으로 어떤 작업을 진행하기 위한 개념입니다.<br>
-별도 작업을 진행하시지 않았다면 main으로 설정되어있습니다.<br><br>
+ : 독립적으로 어떤 작업을 진행하기 위한 개념입니다.<br>
+   별도 작업을 진행하시지 않았다면 main으로 설정되어있습니다.<br><br>
 ![image](https://user-images.githubusercontent.com/131929869/235367439-79aaebf9-66f9-4c11-a970-b58eaed155fd.png)
 {: .notice--info}
 
