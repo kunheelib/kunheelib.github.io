@@ -2,4 +2,20 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!--naver search advisor-->
+<meta name="naver-site-verification" content="57bc6f4924a29f5b4638eb3a21acf058cd644e25" />
+
+<!--google-adsense-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3229800559788956" crossorigin="anonymous"></script>
+
+<!--google-gtag-->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+</script>
+
 <!-- end custom head snippets -->
