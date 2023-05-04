@@ -13,12 +13,12 @@ toc_label: "GITHUB BLOG 검색 노출"
 toc_icon: "blog"
 
 date: 2023-05-03
-last_modified_at: 2023-05-03
+last_modified_at: 2023-05-04
 ---
 📌 **Google Search Console**을 이용해 검색창을 노출하는데는 **소유권 확인이 필수**입니다.<br>
 소유권을 확인하는데에는 **HTML 파일**, **HTML 태그**, **Google Analytics** 등등 여러 방법이 있습니다.<br><br>
 본 포스팅에서는 **Google Analytics**를 이용한 방법이 기재되어 있습니다.<br>
-**Google Analytics** 설정이 안되어 있는 경우 [**블로그 방문 통계보기**](https://kunheelib.github.io/blog/github-blog-analytics/)에 포스팅을 참고해주세요.
+**Google Analytics** 설정이 안되어 있는 경우 [**블로그 방문 통계보기 - Google Analytics**](https://kunheelib.github.io/blog/github-blog-analytics/)에 포스팅을 참고해주세요.
 {: .notice--primary}
 
 # [1] 준비하기
@@ -101,10 +101,17 @@ last_modified_at: 2023-05-03
 
 >
  2023-05-03<br>
-  : 저도 아직 노출이 되지 않습니다. 적용되면 다시 게재하도록 하겠습니다.
+  : 저도 아직 노출이 되지 않습니다. 적용되면 다시 업데이트하겠습니다.
+>
+ 2023-05-04<br>
+  : 하루 걸렸네요. 구글에서 검색이 가능합니다.<br>
+  포스팅한 글은 아직 보이지 않는데요. 만약 시간이 지나도 보여지지 않는다면 해결 후 추가적으로 업데이트 하겠습니다.<br><br>
+  ![image](https://user-images.githubusercontent.com/131929869/236216215-1c68891c-409b-4c5d-9a59-fb77c051c0a3.png)
+
+
 
 😧 모든 절차를 완료 했는데 검색을 해도 노출이 되지 않아요!<br><br>
- : Search Console에서 사이트 관련 데이터를 수집하여 처리하려면 시간이 필요하기 때문입니다.<br>
+ : **Search Console**에서 사이트 관련 데이터를 수집하여 처리하려면 시간이 필요하기 때문입니다.<br>
   **정상적인 현상**이니 기다려주시면 될 것 같습니다.<br><br>
   추가적으로 Search Console에서 수집한 데이터는 **48시간이 지난 후**에야 Search Console 및 Google Analytics에서 조회가 가능합니다.<br>
 {: .notice--success}
