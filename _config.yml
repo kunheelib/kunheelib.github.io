@@ -18,17 +18,17 @@ minimal_mistakes_skin    : "air"  # 전체적인 블로그의 색감을 정하�
 
 # Site Settings
 locale                   : "ko-KR"    # 블로그의 주요 언어
-title                    : "거니의 끄적끄적 Blog"
+title                    : "개발자 거니 Blog"
 title_separator          : "-"
-subtitle                 : "version 1.0"              # 화면 title 하단 소제목
+subtitle                 : "Lib"              # 화면 title 하단 소제목
 name                     : "이건희(Lee Kunhee)"      # 화면 하단 영역의 이름
-description              : "매일 반복하는 공부 습관"   # 설명란
+description              : "모든 현상에 '왜' 의문을 갖고 학습"   # 설명란
 url                      : "https://kunheelib.github.io" # 블로그 URL
 baseurl                  : # 폴백(예기치 못한 오류)일 때 연결 URL
 repository               : "kunheelib/kunheelib.github.io" # Github Repo URL
 teaser                   : # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결
 logo                     : # 화면에 보여지는 logo 이미지입니다. "assets/images"로 세팅
-masthead_title           : "정리가 재밌는 개발자"     # 화면 title
+masthead_title           : "개발자 거니의 끄적끄적"     # 화면 title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
@@ -117,7 +117,7 @@ author:
   bio              : "**끄적끄적**"
                      # biography의 약칭으로, 자기소개를 적으시면 됩니다.
                      # 줄바꿈은 <br>로 굵은 글씨는 **글씨** 로 표기해주세요. 
-  location         : "Republic of Korea"            # 지역 입니다. 
+  location         : "Seoul, Republic of Korea"            # 지역 입니다. 
   email            : # 이메일 주소입니다. (links에서 작성할 수 있기 때문에 생략하였습니다.)
   links:
     - label: "Email"

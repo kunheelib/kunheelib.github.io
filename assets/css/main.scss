@@ -7,3 +7,22 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('/assets/fonts/GmarketSansBold.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('/assets/fonts/GmarketSansMedium.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('/assets/fonts/GmarketSansLight.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
