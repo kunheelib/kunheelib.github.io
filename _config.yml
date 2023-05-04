@@ -23,7 +23,7 @@ title_separator          : "-"
 subtitle                 : "version 1.0"              # 화면 title 하단 소제목
 name                     : "이건희(Lee Kunhee)"      # 화면 하단 영역의 이름
 description              : "매일 반복하는 공부 습관"   # 설명란
-url                      : "https://kunheelib.github.io/" # 블로그 URL
+url                      : "https://kunheelib.github.io" # 블로그 URL
 baseurl                  : # 폴백(예기치 못한 오류)일 때 연결 URL
 repository               : "kunheelib/kunheelib.github.io" # Github Repo URL
 teaser                   : # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결
