@@ -6,14 +6,15 @@ categories:
 tags:
   - google analytics
   - google adsense
+  - jekyll
   - blog
 toc: true
 toc_sticky: true
-toc_label: "GITHUB BLOG 광고 달기"
-toc_icon: "blog"
+toc_label: "목차"
+toc_icon: ""
 
 date: 2023-05-03
-last_modified_at: 2023-05-03
+last_modified_at: 2023-05-06
 ---
 📌 **Google Adsense와 Google Ads의 차이**<br><br>
  : **Google Adsense**는 **게시자**를 위한 프로그램입니다.<br>
@@ -22,6 +23,8 @@ last_modified_at: 2023-05-03
  비즈니스의 성장과 매출 증대에 중점을 두고 웹사이트 또는 앱에서 제품이나 서비스를 광고하려는 경우 사용하시면 됩니다.<br><br>
  참조 : [**Google Adsense 고객센터**](https://support.google.com/adsense/answer/76231?hl=ko)
 {: .notice--primary}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 [**Google Adsense**](https://adsense.google.com/) 링크에 접속하여 이미지를 참고해주세요.
@@ -53,7 +56,7 @@ last_modified_at: 2023-05-03
  표시 위치의 변경을 원하시면 우측 아코디언들을 클릭해서 조작할 수 있습니다.
  {: .notice--danger}
 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
 
 ![image](https://user-images.githubusercontent.com/131929869/235925543-fe2bb53f-3bbc-4553-b091-ffecc6dce6f6.png)
@@ -72,6 +75,7 @@ last_modified_at: 2023-05-03
 >
  **_includes** > **head.html**안에 위의 **`<script>`**를 붙여넣습니다.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 확인하기
 
 ![image](https://user-images.githubusercontent.com/131929869/235932013-14a89003-59bf-4915-ad8e-569731f3d2fe.png)

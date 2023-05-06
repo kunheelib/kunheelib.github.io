@@ -5,16 +5,18 @@ categories:
   - blog
 tags:
   - utterances
+  - jekyll
   - blog
 toc: true
 toc_sticky: true
-toc_label: "GITHUB BLOG 댓글"
-toc_icon: "blog"
+toc_label: "목차"
+toc_icon: ""
 
 date: 2023-05-01
-last_modified_at: 2023-05-03
+last_modified_at: 2023-05-06
 ---
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 [**utterances**](https://github.com/apps/utterances) 링크에 접속하여 이미지를 참고해주세요.
@@ -64,6 +66,7 @@ last_modified_at: 2023-05-03
 >
  8️⃣ **Copy** 버튼을 눌러 복사
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
 ![images](https://user-images.githubusercontent.com/131929869/235674433-d89c0ea4-2726-4b0d-8c70-f66675d863d9.png)
 >
@@ -90,6 +93,7 @@ last_modified_at: 2023-05-03
 >
  2️⃣ 복사된 **script**를 원하는 위치에 붙여넣습니다.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 확인하기
  
  ![images](https://user-images.githubusercontent.com/131929869/235678003-b822e5d8-98b2-42a7-b66a-0f82ecc22582.png)

@@ -5,16 +5,18 @@ categories:
   - blog
 tags:
   - naver search adavisor
+  - jekyll
   - blog
 toc: true
 toc_sticky: true
-toc_label: "GITHUB BLOG 검색 노출"
-toc_icon: "blog"
+toc_label: "목차"
+toc_icon: ""
 
 date: 2023-05-04
 last_modified_at: 2023-05-06
 ---
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 [**Naver Search Advisor**](https://searchadvisor.naver.com/) 링크에 접속하여 이미지를 참고해주세요.
@@ -32,6 +34,7 @@ last_modified_at: 2023-05-06
 >
  입력란 우측에 있는 **`화살표`** 클릭
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
 
 📌 **Naver Search Advisor**을 이용해 검색창을 노출하는데는 **소유권 확인이 필수**입니다.<br>
@@ -81,6 +84,7 @@ last_modified_at: 2023-05-06
  좌측에 있는 **검증** > **robots.txt**을 클릭 후 **`수집요청`**을 클릭합니다.<br>
  : Naver의 경우 Google과 다르게 robots.txt의 
 -->
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 확인하기
 
 ![image](https://user-images.githubusercontent.com/131929869/236218212-e3334290-ce1e-4270-aaa1-1167cb49af62.png)

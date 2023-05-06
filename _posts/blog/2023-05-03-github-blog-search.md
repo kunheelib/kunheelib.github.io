@@ -6,14 +6,15 @@ categories:
 tags:
   - google analytics
   - google search console
+  - jekyll
   - blog
 toc: true
 toc_sticky: true
-toc_label: "GITHUB BLOG 검색 노출"
-toc_icon: "blog"
+toc_label: "목차"
+toc_icon: ""
 
 date: 2023-05-03
-last_modified_at: 2023-05-04
+last_modified_at: 2023-05-06
 ---
 📌 **Google Search Console**을 이용해 검색창을 노출하는데는 **소유권 확인이 필수**입니다.<br>
 소유권을 확인하는데에는 **HTML 파일**, **HTML 태그**, **Google Analytics** 등등 여러 방법이 있습니다.<br><br>
@@ -21,6 +22,7 @@ last_modified_at: 2023-05-04
 **Google Analytics** 설정이 안되어 있는 경우 [**블로그 방문 통계보기 - Google Analytics**](https://kunheelib.github.io/blog/github-blog-analytics/)에 포스팅을 참고해주세요.
 {: .notice--primary}
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 [**Google Search Console**](https://search.google.com/search-console) 링크에 접속하여 이미지를 참고해주세요.
@@ -53,6 +55,7 @@ last_modified_at: 2023-05-04
 >
  **`완료`**
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
 
 ## [2.1] sitemap.xml 만들기
@@ -95,6 +98,7 @@ last_modified_at: 2023-05-04
 >
  추가된 항목의 상태가 **성공**인지 확인해주세요.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 확인하기
 
 ![images](https://user-images.githubusercontent.com/131929869/235868952-83813d80-d03e-4977-b722-e990ea103c0a.png)

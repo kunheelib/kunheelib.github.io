@@ -9,13 +9,14 @@ tags:
   - blog
 toc: true
 toc_sticky: true
-toc_label: "GitHub Blog  시작"
-toc_icon: "blog"
+toc_label: "목차"
+toc_icon: ""
 
 date: 2023-04-30
-last_modified_at: 2023-05-03
+last_modified_at: 2023-05-06
 ---
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 ## [1.1] GitHub 가입
@@ -157,7 +158,7 @@ Bundler version 2.4.12
 $ bundle exec jekyll serve
 ```
 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 연결하기
 ## [2.1] Repository 복제
 생성된 **GitHub Repository**를 사용자의 로컬 폴더에 복제를 합니다.
@@ -181,6 +182,7 @@ $ git remote add origin [GitHub Repository URL]
 ![image](https://user-images.githubusercontent.com/131929869/235367439-79aaebf9-66f9-4c11-a970-b58eaed155fd.png)
 {: .notice--info}
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 테마 적용하기
 [**Jekyll 공식 홈페이지**](http://jekyllthemes.org/)<br>
 [**minimal-mistakes 공식 홈페이지**](https://mmistakes.github.io/minimal-mistakes/)<br>
@@ -213,6 +215,10 @@ $ git add .
 $ git commit m "[message]"
 $ git push -u origin [branch]
 ```
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [4] 확인하기
+
+![image](https://user-images.githubusercontent.com/131929869/236614837-dab3d5fb-0353-4f8c-8f3e-a172ec527036.png)
 
 이상 블로그 시작하기를 마치겠습니다.

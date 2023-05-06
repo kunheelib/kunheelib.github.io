@@ -10,7 +10,7 @@ tags:
   - blog
 toc: true
 toc_sticky: true
-toc_label: "가이드"
+toc_label: "목차"
 toc_icon: ""
 
 date: 2023-05-06
@@ -28,6 +28,7 @@ last_modified_at: 2023-05-06
  이 때 API사용을 위한 **Personal Access Token 등의 인증 정보가 노출**될 수 있기 때문에 보안상 주의해야합니다.
 {: .notice--danger}
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 [**Hits**](https://analytics.google.com/) 링크에 접속하여 이미지를 참고해주세요.
@@ -39,6 +40,7 @@ last_modified_at: 2023-05-06
  **`TARGET URL`**에 블로그 URL을 입력합니다.<br>
  **`OPTION`**에 방문자수를 보여주는 태그를 커스터마이팅 할 수 있습니다.(선택사항)<br>
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
 
 ![image](https://user-images.githubusercontent.com/131929869/236611595-780d9ac7-ff98-4590-83c9-7b352580bfc0.png)
@@ -47,6 +49,7 @@ last_modified_at: 2023-05-06
  원하는 형식의 코드를 복사합니다.
   : 저 같은 경우 본 포스팅에 작성할 것이기에 `markdown`을 복사했습니다.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 확인하기
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fkunheelib.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)

@@ -6,16 +6,18 @@ categories:
 tags:
   - analytics
   - google analytics
+  - jekyll
   - blog
 toc: true
 toc_sticky: true
-toc_label: "GITHUB BLOG 통계"
-toc_icon: "blog"
+toc_label: "목차"
+toc_icon: ""
 
 date: 2023-05-02
-last_modified_at: 2023-05-03
+last_modified_at: 2023-05-06
 ---
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 [**Google Analytics**](https://analytics.google.com/) 링크에 접속하여 이미지를 참고해주세요.
@@ -73,6 +75,7 @@ last_modified_at: 2023-05-03
 >
  8️⃣ **측정ID** 복사
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
 
 ![images](https://user-images.githubusercontent.com/131929869/235674433-d89c0ea4-2726-4b0d-8c70-f66675d863d9.png)
@@ -117,6 +120,7 @@ analytics:
  **_includes** > **head.html**안에<br>
  **analytics-providers** > **google-gtag.html**에 있는 **`<script>`**를 모두 추가합니다.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 확인하기
 
 ![images](https://user-images.githubusercontent.com/131929869/235722718-570933b0-066b-4cc4-8636-0dffbb2dc1ac.png)
