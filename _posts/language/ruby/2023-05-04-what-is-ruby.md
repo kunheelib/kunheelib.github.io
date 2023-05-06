@@ -2,13 +2,13 @@
 title: "[Language] Ruby(루비)"
 excerpt: ""
 categories:
-  - language
+  - ruby
 tags:
   - ruby
 toc: true
 toc_sticky: true
 toc_label: "5W1H"
-toc_icon: ""
+toc_icon: "list"
 
 date: 2023-05-4
 last_modified_at: 2023-05-04

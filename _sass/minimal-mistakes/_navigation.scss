@@ -443,6 +443,7 @@
 
   a {
     color: inherit;
+    font-size: $type-size-4;
   }
 
   .active {
@@ -484,7 +485,7 @@
   margin: 0;
   padding: 0.5rem 0.75rem;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
   font-weight: bold;
 }
 
@@ -493,7 +494,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;

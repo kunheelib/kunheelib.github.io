@@ -19,7 +19,7 @@ last_modified_at: 2023-05-06
 📌 **Google Search Console**을 이용해 검색창을 노출하는데는 **소유권 확인이 필수**입니다.<br>
 소유권을 확인하는데에는 **HTML 파일**, **HTML 태그**, **Google Analytics** 등등 여러 방법이 있습니다.<br><br>
 본 포스팅에서는 **Google Analytics**를 이용한 방법이 기재되어 있습니다.<br>
-**Google Analytics** 설정이 안되어 있는 경우 [**블로그 방문 통계보기 - Google Analytics**](https://kunheelib.github.io/blog/github-blog-analytics/)에 포스팅을 참고해주세요.
+**Google Analytics** 설정이 안되어 있는 경우 [**블로그 방문 통계보기 - Google Analytics**](https://kunheelib.github.io/blog/integrate-google-analytics/)에 포스팅을 참고해주세요.
 {: .notice--primary}
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

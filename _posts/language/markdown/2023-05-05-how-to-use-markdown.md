@@ -2,14 +2,14 @@
 title: "[Language] Markdown(마크다운) 사용법"
 excerpt: ""
 categories:
-  - language
+  - markdown
 tags:
   - markdown
   - md
 toc: true
 toc_sticky: true
-toc_label: "가이드"
-toc_icon: ""
+toc_label: "사용법"
+toc_icon: "list"
 
 date: 2023-05-05
 last_modified_at: 2023-05-06

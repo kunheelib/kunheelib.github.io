@@ -1,0 +1,33 @@
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+    <ul class="nav__items">
+        <hr>
+        <li>📂 <a a href="/categories/" class="">전체 글</a><span>( {{sum}} )</span></li>
+        <li>
+            <span class="nav__sub-title">언어</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ruby" %}
+                        <li><a href="/categories/ruby" class="">Ruby</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "markdown" %}
+                        <li><a href="/categories/markdown" class="">Markdown</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <span class="nav__sub-title">기타</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "blog" %}
+                        <li><a href="/categories/blog" class="">Blog</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</nav>
