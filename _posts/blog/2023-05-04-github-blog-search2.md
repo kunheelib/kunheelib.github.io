@@ -88,6 +88,10 @@ last_modified_at: 2023-05-04
 >
  2023-05-04<br>
   : 저도 아직 노출이 되지 않습니다. 적용되면 다시 업데이트하겠습니다.
+>
+ 2023-05-06<br>
+   : 이건 이틀정도 걸렸네요. 네이버에서도 검색이 가능합니다.<br>
+   ![image](https://user-images.githubusercontent.com/131929869/236614462-3dceb0d7-25d4-47aa-8fb6-2f00bada6725.png)
 
 😧 모든 절차를 완료 했는데 검색을 해도 노출이 되지 않아요!<br><br>
  : **Search Advisor**에서 사이트 관련 데이터를 수집하여 처리하려면 시간이 필요하기 때문입니다.( Search Console과 동일 )<br>
