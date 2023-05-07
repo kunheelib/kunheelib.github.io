@@ -221,4 +221,5 @@ $ git push -u origin [branch]
 
 ![image](https://user-images.githubusercontent.com/131929869/236614837-dab3d5fb-0353-4f8c-8f3e-a172ec527036.png)
 
-이상 블로그 시작하기를 마치겠습니다.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+이상 포스팅을 마치겠습니다.
