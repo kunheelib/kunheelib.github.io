@@ -58,13 +58,13 @@ last_modified_at: 2023-05-06
 
 ## [2.1] sitemap.xml 만들기
 
-**sitemap.xml**를 만드는 방법은 [**블로그 검색 노출하기 - Google Search Console**](https://kunheelib.github.io/blog/integrate-google-search/#21-sitemapxml-%EB%A7%8C%EB%93%A4%EA%B8%B0) 에서 다룬적이 있습니다.<br>
+**sitemap.xml**를 만드는 방법은 [**[블로그 검색 노출하기 - Google Search Console]**](https://kunheelib.github.io/blog/integrate-google-search/#21-sitemapxml-%EB%A7%8C%EB%93%A4%EA%B8%B0) 에서 다룬적이 있습니다.<br>
 생성 방법 및 파일 위치는 동일하니 위 링크를 참고 부탁드리겠습니다.
 {: .notice}
 
 ## [2.2] robots.txt 만들기
 
-**robots.txt**를 만드는 방법은 [**블로그 검색 노출하기 - Google Search Console**](https://kunheelib.github.io/blog/integrate-google-search/#22-robotstxt-%EB%A7%8C%EB%93%A4%EA%B8%B0) 에서 다룬적이 있습니다.<br>
+**robots.txt**를 만드는 방법은 [**[블로그 검색 노출하기 - Google Search Console]**](https://kunheelib.github.io/blog/integrate-google-search/#22-robotstxt-%EB%A7%8C%EB%93%A4%EA%B8%B0) 에서 다룬적이 있습니다.<br>
 생성 방법 및 파일 위치는 동일하니 위 링크를 참고 부탁드리겠습니다.
 {: .notice}
 
