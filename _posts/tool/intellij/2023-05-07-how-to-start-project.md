@@ -163,7 +163,7 @@ last_modified_at: 2023-05-09
      Java 기반 프로젝트 빌드, 배포, 관리를 위한 도구입니다.<br>
      Maven을 사용하면 프로잭트 개발을 위한 의존성 관리, 빌드, 테스트, 배포, 문서화 등을 편리하게 수행할 수 있습니다.<br><br>
   🔹**pom.xml이란?**<br>
-     Project Object Model의 약자로 프로젝트를 구성하며, 이를 통해 프로젝트 설정하고 빌드 프로세스를 관리합니다.
+     Project Object Model의 약어로 프로젝트를 구성하며, 이를 통해 프로젝트 설정하고 빌드 프로세스를 관리합니다.
 {: .notice--info}
 
 ![image](https://user-images.githubusercontent.com/131929869/236740645-03ff6ca6-ca19-47ae-a0ef-d04a07f91de5.png)
@@ -523,6 +523,7 @@ bean을 등록하기 위해 **dispatcher-servlet.xml** 에 **`<context:component
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # 참조
-**WHITEPAEK Tech Docs** : <https://whitepaek.tistory.com/41>
+- [**WHITEPAEK Tech Docs**](https://whitepaek.tistory.com/41)
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 이상 포스팅을 마치겠습니다.

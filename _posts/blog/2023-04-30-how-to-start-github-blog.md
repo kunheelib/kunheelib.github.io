@@ -91,7 +91,7 @@ $ git config --global user.name "[user]"
 $ git config --global user.email "[user@email.com]"
 ```
 
-## [1.5] Rudy 설치 및 패키지 설치
+## [1.5] Ruby 설치 및 패키지 설치
 [**[Ruby for Windos]**](https://rubyinstaller.org/downloads/)에 접속하신 후 이미지와 같은 내용을 확인해주세요.
 {: .notice}
 

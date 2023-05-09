@@ -81,6 +81,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "se" %}
+                        <li><a href="/categories/se" class="">소프트웨어 공학</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <!--ETC-->
             <span class="nav__sub-title">기타</span>
             <ul>
