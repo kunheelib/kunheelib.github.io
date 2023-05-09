@@ -17,7 +17,7 @@ toc_label: "목차"
 toc_icon: ""
 
 date: 2023-05-08
-last_modified_at: 2023-05-09
+last_modified_at: 2023-05-10
 ---
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -159,6 +159,8 @@ last_modified_at: 2023-05-09
 
 >
  **VCS > Enable Version Control Intergration...**을 클릭합니다.
+  : git init과 동일한 동작을 하며, 저장소가 초기화 된다.<br>
+  이미 초기화 된경우 메뉴가 보이지 않을 수 있습니다.
 
 ![image](https://user-images.githubusercontent.com/131929869/236864483-fc258bec-6acd-4715-bcc0-de90248e3b5e.png)
 
@@ -172,7 +174,10 @@ last_modified_at: 2023-05-09
   : 이전 단계에서 Git을 선택해야 해당 서브 메뉴가 생성됩니다.
 
  ⚠️똑같이 진행해도 안보이는데요?<br><br>
-  : 나도 잘 모르겠는데?
+  : **다음과 같은 경우가 있을 수 있습니다.**<br><br>
+    1. IntelliJ 2020.1 버전 이상의 경우 VCM 메뉴가 Git으로 변경되었습니다. 보여지는 단어가 조금 다를 수 있으나 동일한 동작을 수행할 수 있습니다.
+    2. 프로젝트가  Git에 연결되어 있는지 확인해주세요.(Version Control이 연결되어 있지 않다면 안보일 수 있습니다.)
+    3. IntelliJ 버전이 너무 오래되어 지원하지 않을 수 있습니다. 버전을 확인해주시고, 대체할 수 있는 플러그인을 찾아주세요.
 {:.notice--warning}
 
 ![image](https://user-images.githubusercontent.com/131929869/236864487-57e6e1e0-cba6-4d53-b572-5a629bc7d08e.png)
@@ -209,7 +214,8 @@ Git에 사용되는 파일중 하나로 <u>특정 파일이나 디렉터리를 �
 
 >
  팝업창이 열리면 **Example user templeate**을 선택해주세요.
-  : 이거 설명
+  : IntelliJ의 기본 템플릿이 정의됩니다.<br>
+  그 외에도 여러가지를 선택할 수 있는데 사용 유형에 맞춰 선택해주세요.
 
 ![image](https://user-images.githubusercontent.com/131929869/236864501-2e34f862-2d0e-4e42-ba14-7f90e441b37a.png)
 
@@ -222,6 +228,7 @@ Git에 사용되는 파일중 하나로 <u>특정 파일이나 디렉터리를 �
 >
  **좌측 디렉터리에서 추가된 .gitignore을 확인할 수 있습니다.**
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # [4] 확인하기
 
 ![image](https://user-images.githubusercontent.com/131929869/236996412-e9f22686-f5b0-4e07-adae-ed604b11b2fc.png)
