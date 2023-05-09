@@ -4,17 +4,19 @@ excerpt: ""
 categories:
   - blog
 tags:
+  - google
   - google analytics
   - google search console
   - jekyll
   - blog
+
 toc: true
 toc_sticky: true
 toc_label: "목차"
-toc_icon: ""
+toc_icon: "list"
 
 date: 2023-05-03
-last_modified_at: 2023-05-06
+last_modified_at: 2023-05-09
 ---
 📌 **Google Search Console**을 이용해 검색창을 노출하는데는 **소유권 확인이 필수**입니다.<br>
 소유권을 확인하는데에는 **HTML 파일**, **HTML 태그**, **Google Analytics** 등등 여러 방법이 있습니다.<br><br>
@@ -25,7 +27,7 @@ last_modified_at: 2023-05-06
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
-[**Google Search Console**](https://search.google.com/search-console) 링크에 접속하여 이미지를 참고해주세요.
+[**[Google Search Console]**](https://search.google.com/search-console) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/235844953-d777a25c-970e-489c-9d68-e851bbf3bbdf.png)
@@ -34,8 +36,6 @@ last_modified_at: 2023-05-06
 
 >
  1️⃣ **블로그 URL**을 입력
->
- **`계속`**
 
 ![images](https://user-images.githubusercontent.com/131929869/235844967-a0b35f53-ddc9-4af3-baef-798d8a5410fc.png)
 
@@ -43,17 +43,17 @@ last_modified_at: 2023-05-06
  2️⃣ **Google 애널리틱스** 아코디언 클릭
   : 앞서 말씀드렸지만 본 포스팅에서는 **Google Analytics**을 이용하여 소유권을 확인합니다.
 >
- 3️⃣ **`확인`**을 눌러 소유권 확인 **검증**을 진행 합니다.
+ 3️⃣ **확인**을 눌러 소유권 확인 **검증**을 진행 합니다.
 
 ⚠️ **만약 소유권 확인에 실패했다면?**<br><br>
- : **_includes** > **head.html**안에<br>
-   **analytics-providers** > **google-gtag.html**에 있는 **`<script>`**가 모두 반영되어 있는지 확인해주세요.<br>
+ : **_includes > head.html**안에<br>
+   **analytics-providers > google-gtag.html**에 있는 **`<script>`**가 모두 반영되어 있는지 확인해주세요.<br>
 {: .notice--warning}
 
 ![images](https://user-images.githubusercontent.com/131929869/235852095-8052da32-962d-4781-8674-840633747dd1.png)
 
 >
- **`완료`**
+ **완료**
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
@@ -84,14 +84,14 @@ last_modified_at: 2023-05-06
 
 ## [2.3] sitemap 적용
 
-[**Google Search Console**](https://search.google.com/search-console) 링크에 접속하여 이미지를 참고해주세요.
+[**[Google Search Console]**](https://search.google.com/search-console) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/235844973-37214466-fbc2-49fc-9f90-f699db09e198.png)
 
 >
  좌측 **Sitemaps**를 클릭하여 새 사이트맵을 추가합니다.<br><br>
- 작성한 **sitemap.xml**을 내용에 기재한 후 **`제출`**을 클릭합니다.
+ 작성한 **sitemap.xml**을 내용에 기재한 후 **제출**을 클릭합니다.
 
 ![images](https://user-images.githubusercontent.com/131929869/235844974-0cc13de9-01f9-4b0b-8110-500f13257cc1.png)
 

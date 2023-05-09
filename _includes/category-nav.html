@@ -5,6 +5,7 @@
         <hr>
         <li>📂 <a a href="/categories/" class="">전체 글</a><span>( {{sum}} )</span></li>
         <li>
+            <!--Language-->
             <span class="nav__sub-title">언어</span>
             <ul>
                 {% for category in site.categories %}
@@ -20,6 +21,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <!--Database-->
             <span class="nav__sub-title">데이터베이스</span>
             <ul>
                 {% for category in site.categories %}
@@ -28,6 +30,58 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "oracle" %}
+                        <li><a href="/categories/oracle" class="">Oracle</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "postgresql" %}
+                        <li><a href="/categories/postgresql" class="">PostgrSQL</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <!--CS-->
+            <span class="nav__sub-title">컴퓨터공학</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ca" %}
+                        <li><a href="/categories/ca" class="">컴퓨터구조</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "os" %}
+                        <li><a href="/categories/os" class="">운영체제</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ds" %}
+                        <li><a href="/categories/ds" class="">자료구조</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "alg" %}
+                        <li><a href="/categories/alg" class="">알고리즘</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "nw" %}
+                        <li><a href="/categories/nw" class="">네트워크</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <!--ETC-->
             <span class="nav__sub-title">기타</span>
             <ul>
                 {% for category in site.categories %}

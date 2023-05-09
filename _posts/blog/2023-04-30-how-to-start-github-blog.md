@@ -7,20 +7,23 @@ tags:
   - minimal mistakes
   - jekyll
   - blog
+  - git
+  - github
+  
 toc: true
 toc_sticky: true
 toc_label: "목차"
-toc_icon: ""
+toc_icon: "list"
 
 date: 2023-04-30
-last_modified_at: 2023-05-06
+last_modified_at: 2023-05-09
 ---
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
 ## [1.1] GitHub 가입
-[**GitHub**](https://github.com/) 링크에 접속하여 가입을 진행합니다.
+[**[GitHub]**](https://github.com/) 링크에 접속하여 가입을 진행합니다.
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/235370616-b9b806d8-ac02-4c5f-a957-95fa0c82564f.png)
@@ -52,7 +55,7 @@ last_modified_at: 2023-05-06
   만약 정해진 패턴이 아닌 다른 형식의 Repository name을 지정할 경우
   별도로 GitHub Pages 활성화 설정을 해주면 됩니다.<br><br>
   본 포스팅에서는 입문자를 위해 작성하였기 때문에 Pages 설정을 다루지 않겠습니다.<br>
-  Pages 설정은 [**GitHub-Pages**]() 여기를 참조해주세요!
+  Pages 설정은 [**[GitHub-Pages]**]() 여기를 참조해주세요!
 {: .notice--warning}
 
 ## [1.3] Git 설치
@@ -60,7 +63,7 @@ last_modified_at: 2023-05-06
  : 협업도구, 소스의 버전관리(형상관리) Tool, 무료 소스 관리 시스템입니다.
 {: .notice--info}
 
-[**Git**](https://git-scm.com/) 링크에 접속하여 이미지를 참고해주세요.
+[**[Git]**](https://git-scm.com/) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![image](https://user-images.githubusercontent.com/131929869/235352976-82a9c28d-4b6a-4e09-bf3b-53eee709da4a.png)
@@ -89,7 +92,7 @@ $ git config --global user.email "[user@email.com]"
 ```
 
 ## [1.5] Rudy 설치 및 패키지 설치
-[**Ruby for Windos**](https://rubyinstaller.org/downloads/)에 접속하신 후 이미지와 같은 내용을 확인해주세요.
+[**[Ruby for Windos]**](https://rubyinstaller.org/downloads/)에 접속하신 후 이미지와 같은 내용을 확인해주세요.
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/235343371-475defc5-6033-4902-868e-727cfb965341.png)
@@ -184,10 +187,10 @@ $ git remote add origin [GitHub Repository URL]
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 테마 적용하기
-[**Jekyll 공식 홈페이지**](http://jekyllthemes.org/)<br>
-[**minimal-mistakes 공식 홈페이지**](https://mmistakes.github.io/minimal-mistakes/)<br>
-[**minimal-mistakes 가이드**](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)<br>
-[**minimal-mistakes GitHub**](https://github.com/mmistakes/minimal-mistakes)<br>
+**Jekyll 공식 홈페이지** : <http://jekyllthemes.org/><br>
+**minimal-mistakes 공식 홈페이지** : <https://mmistakes.github.io/minimal-mistakes/><br>
+**minimal-mistakes 가이드** : <https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/><br>
+**minimal-mistakes GitHub** : <https://github.com/mmistakes/minimal-mistakes><br>
 {: .notice}
 
 본 포스팅에서는 **jekyll**의 여러 테마중에서 **minimal-mistakes**를 사용합니다.<br>

@@ -7,19 +7,22 @@ tags:
   - utterances
   - jekyll
   - blog
+  - git
+  - github
+
 toc: true
 toc_sticky: true
 toc_label: "목차"
-toc_icon: ""
+toc_icon: "list"
 
 date: 2023-05-01
-last_modified_at: 2023-05-06
+last_modified_at: 2023-05-09
 ---
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
-[**utterances**](https://github.com/apps/utterances) 링크에 접속하여 이미지를 참고해주세요.
+[**[utterances]**](https://github.com/apps/utterances) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/235621675-4e3c95a4-4166-4e11-ad63-ce1d7907531d.png)

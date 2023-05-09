@@ -4,35 +4,34 @@ excerpt: ""
 categories:
   - blog
 tags:
+  - naver
   - naver search adavisor
   - jekyll
   - blog
+  
 toc: true
 toc_sticky: true
 toc_label: "목차"
-toc_icon: ""
+toc_icon: "list"
 
 date: 2023-05-04
-last_modified_at: 2023-05-06
+last_modified_at: 2023-05-09
 ---
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
-[**Naver Search Advisor**](https://searchadvisor.naver.com/) 링크에 접속하여 이미지를 참고해주세요.
+[**[Naver Search Advisor]**](https://searchadvisor.naver.com/) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/236161346-571a1ad3-3b28-4db7-ba0f-2cb3a96b4dd5.png)
-
->
- **`웹마스터 도구 사용하기`**
 
 ![images](https://user-images.githubusercontent.com/131929869/236161354-f0405d40-56ba-4407-9251-9a011397e844.png)
 
 >
  **블로그 URL**을 입력
 >
- 입력란 우측에 있는 **`화살표`** 클릭
+ 입력란 우측에 있는 **화살표** 클릭
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
@@ -41,7 +40,6 @@ last_modified_at: 2023-05-06
 소유권을 확인하는데에는 Google Search Console과 다르게 **HTML 파일**, **HTML 태그** 두가지 방법만 있습니다.<br><br>
 본 포스팅에서는 **HTML 태그**를 이용한 방법이 기재되어 있습니다.<br>
 {: .notice--primary}
-
 
 ![images](https://user-images.githubusercontent.com/131929869/236161357-81927872-3045-4e4a-b64c-c89d84ac5937.png)
 
@@ -53,8 +51,6 @@ last_modified_at: 2023-05-06
 >
   보여진 **`<meta>`**를 **_includes** > **head.html**안에 반영합니다.
   <script src="https://gist.github.com/kunheelib/5ac40b005315558419bb00baccd74295.js"></script>
->
-  **`소유확인`**
 
 ## [2.1] sitemap.xml 만들기
 
@@ -99,7 +95,7 @@ last_modified_at: 2023-05-06
 
 😧 모든 절차를 완료 했는데 검색을 해도 노출이 되지 않아요!<br><br>
  : **Search Advisor**에서 사이트 관련 데이터를 수집하여 처리하려면 시간이 필요하기 때문입니다.( Search Console과 동일 )<br>
-  **정상적인 현상**이니 기다려주시면 될 것 같습니다.<br><br>
+  **정상적인 현상**이니 기다려주시면 될 것 같습니다.<br>
 {: .notice--success}
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

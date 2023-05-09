@@ -10,12 +10,12 @@ toc_sticky: true
 toc_label: "5W1H"
 toc_icon: "list"
 
-date: 2023-05-4
-last_modified_at: 2023-05-04
+date: 2023-05-04
+last_modified_at: 2023-05-09
 ---
 
 ![image](https://user-images.githubusercontent.com/131929869/236079872-19ef9601-ae61-488c-80fc-06436cc93428.png){: .align-right width="15%" height="15%"}
-<br><br><br>
+<br><br><br><br><br>
 
 <!--누가-->
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -60,7 +60,7 @@ Ruby는 2000년대 초반에는 Ruby on Rails 프레임워크가 등장하면서
 | 2020 | 2.7 | 	더 엄격한 비동기 예외 처리, pattern matching 등의 새로운 기능 추가 |
 | 2021 | 3.0 | 	Ractor, Fiber Scheduler, 정적 타이핑 도입 등의 새로운 기능 추가 |
 
-💡**아래는 2023년 기준 [TIOBE Index](https://www.tiobe.com/tiobe-index/) 통계 자료입니다.**<br><br>
+💡**아래는 2023년 기준 [[TIOBE Index]](https://www.tiobe.com/tiobe-index/) 통계 자료입니다.**<br><br>
   ![image](https://user-images.githubusercontent.com/131929869/236100003-095daa31-5167-4542-901e-e376032f4e8c.png)<br><br>
   ![image](https://user-images.githubusercontent.com/131929869/236099576-fa0f74b3-79da-45d2-bf02-62fb266fb97e.png)
 {: .notice--info}
@@ -78,7 +78,6 @@ Ruby는 2000년대 초반에는 Ruby on Rails 프레임워크가 등장하면서
   🔹**인터프리터란?**<br>
    고급 언어로 작성된 원시코드 명령어들을 한번에 한 줄씩 읽어들여서 실행하는 프로그램입니다.<br>
    컴파일러와 다르게 컴파일 단계를 거치지 않는데에 장점이 있지만, 느리다는 단점이 있습니다.
-   <br><br>
 {: .notice--info}
 
 <!--어떻게-->
@@ -183,8 +182,8 @@ Spring Boot는 Ralis에서 사용되는 CoC의 개념을 Java 개발에 적용�
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # 참조
- - [**Ruby 공식 사이트**](https://www.ruby-lang.org/ko/about/)
- - [**Ruby 공식 문서**](https://www.ruby-lang.org/ko/documentation/)
+ - **Ruby 공식 사이트** : <https://www.ruby-lang.org/ko/about/>
+ - **Ruby 공식 문서** : <https://www.ruby-lang.org/ko/documentation/>
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 이상 포스팅을 마치겠습니다.

@@ -5,22 +5,24 @@ categories:
   - blog
 tags:
   - analytics
+  - google
   - google analytics
   - jekyll
   - blog
+
 toc: true
 toc_sticky: true
 toc_label: "목차"
-toc_icon: ""
+toc_icon: "list"
 
 date: 2023-05-02
-last_modified_at: 2023-05-06
+last_modified_at: 2023-05-09
 ---
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
-[**Google Analytics**](https://analytics.google.com/) 링크에 접속하여 이미지를 참고해주세요.
+[**[Google Analytics]**](https://analytics.google.com/) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![images](https://user-images.githubusercontent.com/131929869/235710923-c7b8f7ca-87ee-4f5d-8f37-27ce91b97aa5.png)
@@ -31,8 +33,6 @@ last_modified_at: 2023-05-06
 >
  1️⃣ **계정 이름**을 입력<br>
   : 설정에 직접적으로 영향을 끼치는 부분은 없습니다.
->
- **`다음`**
 
 ![images](https://user-images.githubusercontent.com/131929869/235710933-2f0d8160-3b65-4462-8463-98b3a199797f.png)
 
@@ -45,26 +45,18 @@ last_modified_at: 2023-05-06
  4️⃣ **통화**에 **대한민국 원(￦)**<br>
   : 광고를 게재할 경우 수익을 측정하기 위한 단위 입니다.<br>
   광고 설정은 [**GitHub-ads**]() 여기를 참조해주세요!
->
- **`다음`**
 
 ![images](https://user-images.githubusercontent.com/131929869/235710938-408e63e4-63bc-4d0e-a8cc-70e486d946b8.png)
 >
  5️⃣ 본인에게 맞는 정보를 입력합니다.<br>
->
- **`다음`**
 
 ![images](https://user-images.githubusercontent.com/131929869/235710943-41a50786-814e-4e52-828c-24b89e798510.png)
 >
  6️⃣ 본인에게 맞는 정보를 선택합니다.<br>
->
- **`다음`**
 
 ![images](https://user-images.githubusercontent.com/131929869/235710946-f60f8d7c-2b95-438a-8b79-4b1c92d5b3b0.png)
 >
  7️⃣ **대한민국** 선택 후 동의<br>
->
- **`동의함`**
 
 ![images](https://user-images.githubusercontent.com/131929869/235715356-b1365819-dc9a-4fe3-b707-e06bdbaa5b68.png)
 
@@ -111,7 +103,7 @@ analytics:
 **Google Search Console**의 경우 Analytics를 연계 사용하려면 소유권 확인을 위해 **analytics.js** 또는 **gtag.js** 스니펫을 요구합니다.<br>
 추적코드는 페이지의 **`<body>`** 섹션이 아닌 **`<head>`** 섹션 안에 있어야 합니다.<br><br>
 **다음 포스팅에서는 Google Search Console를 다루기 때문에 미리 설정하도록 하겠습니다.**<br><br>
-참조 : [**Search Console 고객센터**](https://support.google.com/webmasters/answer/9008080?sjid=10563790254224309897-AP&visit_id=638187006711769695-421826421&rd=1)
+참조 : [**[Search Console 고객센터]**](https://support.google.com/webmasters/answer/9008080?sjid=10563790254224309897-AP&visit_id=638187006711769695-421826421&rd=1)
 {: .notice}
 
 <script src="https://gist.github.com/kunheelib/5ac40b005315558419bb00baccd74295.js"></script>

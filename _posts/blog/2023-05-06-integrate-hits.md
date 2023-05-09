@@ -8,13 +8,14 @@ tags:
   - minimal mistakes
   - jekyll
   - blog
+
 toc: true
 toc_sticky: true
 toc_label: "목차"
-toc_icon: ""
+toc_icon: "list"
 
 date: 2023-05-06
-last_modified_at: 2023-05-06
+last_modified_at: 2023-05-09
 ---
 
 ⚠️ **GitHub에서는 기본적으로 방문자 수를 확인하는 기능을 제공하지 않습니다.**<br><br>
@@ -31,14 +32,16 @@ last_modified_at: 2023-05-06
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] 준비하기
 
-[**Hits**](https://analytics.google.com/) 링크에 접속하여 이미지를 참고해주세요.
+[**[Hits]**](https://analytics.google.com/) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![image](https://user-images.githubusercontent.com/131929869/236608069-0dcf8ad4-2fcb-4b78-a2a3-456f4a545ab8.png)
 
 >
- **`TARGET URL`**에 블로그 URL을 입력합니다.<br>
- **`OPTION`**에 방문자수를 보여주는 태그를 커스터마이팅 할 수 있습니다.(선택사항)<br>
+ **TARGET URL**에 **블로그 URL**을 입력합니다.
+>
+ **OPTION**에 방문자수를 보여주는 태그를 커스터마이팅 할 수 있습니다.
+  : 본 포스팅은 **default**값으로 설정했습니다.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 적용하기
@@ -47,7 +50,7 @@ last_modified_at: 2023-05-06
 
 >
  원하는 형식의 코드를 복사합니다.
-  : 저 같은 경우 본 포스팅에 작성할 것이기에 `markdown`을 복사했습니다.
+  : 저 같은 경우 본 포스팅에 작성할 것이기에 **markdown**을 복사했습니다.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [3] 확인하기

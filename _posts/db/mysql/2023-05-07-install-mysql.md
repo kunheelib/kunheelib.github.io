@@ -13,7 +13,7 @@ toc_label: "목차"
 toc_icon: "list"
 
 date: 2023-05-07
-last_modified_at: 2023-05-07
+last_modified_at: 2023-05-09
 ---
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -26,40 +26,40 @@ last_modified_at: 2023-05-07
 
 >
  1️⃣ **`Win` + `R`**를 동시에 눌러 **실행** 도구를 엽니다.<br>
- 2️⃣ **msinfo32**를 입력하고 **`확인`**을 클릭합니다.
+ 2️⃣ **msinfo32**를 입력하고 **확인**을 클릭합니다.
 
 ![image](https://user-images.githubusercontent.com/131929869/236671342-b02745ea-664f-4b9c-bcc0-955ca3500bce.png)
 
 >
- 3️⃣ **시스템 정보** 창이 열리면 **`OS 이름` 및 `시스템 종류`**의 내용을 확인합니다.
+ 3️⃣ **시스템 정보** 창이 열리면 **OS 이름 및 시스템 종류**의 내용을 확인합니다.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [2] 설치하기
 
 ## 설치 파일 받기
 
-[**MySQL Community Server**](https://dev.mysql.com/downloads/mysql/) 링크에 접속하여 이미지를 참고해주세요.
+[**[MySQL Community Server]**](https://dev.mysql.com/downloads/mysql/) 링크에 접속하여 이미지를 참고해주세요.
 {: .notice}
 
 ![image](https://user-images.githubusercontent.com/131929869/236672081-f3726856-951c-4fc5-bedf-489b29ab3792.png)
 
 >
- **표시되어 있는 항목 `Download` 클릭합니다.**
+ 표시되어 있는 항목 **Download** 클릭합니다.
 
 ![image](https://user-images.githubusercontent.com/131929869/236672150-c178396a-e017-4956-981e-b808f21352f3.png)
 
 >
- **`No thanks, just start my download` 클릭합니다.**
+ **No thanks, just start my download** 클릭합니다.
 
 ## 설치 유형 선택
 
 ![image](https://user-images.githubusercontent.com/131929869/236673023-f601b940-1376-4af3-899c-3decb3c0e424.png)
 
 >
- **`Developer Default` 선택 후 `Next` 클릭합니다.**
+ **Developer Default**를 선택합니다.
 
 💡**알고가기**<br><br>
-**Developer Default**를 선택해서 설치를 할 경우 설명에서 확인할 수 있는 것처럼 여러가지 제품들이 자동으로 설치됩니다.<br>
+ : **Developer Default**를 선택해서 설치를 할 경우 설명에서 확인할 수 있는 것처럼 여러가지 제품들이 자동으로 설치됩니다.<br>
  설치하는 제품들이 어떤 기능들을 하는지 알아봅시다.<br>
  {: .notice--info}
 
@@ -84,8 +84,8 @@ last_modified_at: 2023-05-07
 
 >
  필요한 부분이 아직 충족되지 않았다는 안내창이 열립니다.<br>
- **저에게는 필요하지 않는 내용이기에 `Yes` 를 클릭했습니다.**<br>
- 꼭 필요한 것일 경우 `No`를 눌러 관련 자료를 다운로드 받아주시면 됩니다.
+ 저에게는 필요하지 않는 내용이기에 **Yes** 를 클릭했습니다.<br>
+ **<u>꼭 필요한 것일 경우 No를 눌러 관련 자료를 다운로드</u>** 받아주시면 됩니다.
 
 ## 설치
 
@@ -93,7 +93,7 @@ last_modified_at: 2023-05-07
 
 >
  설치할 목록을 보여줍니다.<br>
- **내용을 확인한 후 `Execute`를 클릭하면 설치가 진행됩니다.**
+ 내용을 확인한 후 **Execute**를 클릭하면 설치가 진행됩니다.**
 
 ![image](https://user-images.githubusercontent.com/131929869/236674517-6229fcf9-ed6b-4dcc-bb68-19c93a93e525.png)
 
@@ -101,7 +101,7 @@ last_modified_at: 2023-05-07
 
 >
  설치가 완료된 목록을 보여줍니다.<br>
- **내용을 확인 후 `Next`를 클릭합니다.**
+ 내용을 확인 후 **Next**를 클릭합니다.
 
 # [3] 세부 설정
 
@@ -110,11 +110,15 @@ last_modified_at: 2023-05-07
 ![image](https://user-images.githubusercontent.com/131929869/236674747-2435764d-e49c-478d-9cd1-e3d0897d14bc.png)
 
 >
- **Config Type**을 `Development Computer` 선택합니다.(기본값)<br>
+ **Config Type**을 **Development Computer** 선택합니다.
+  : 본 포스팅에서는 **default**값을 선택합니다.
 >
- **TCP/IP**를 `체크`합니다.(기본값)<br>
+ **TCP/IP**를 `체크`합니다.
+  : 본 포스팅에서는 **default**값을 선택합니다.
 >
- **Port**는 `3306`을 설정합니다.(기본값, Mysql 기본 포트는 `3306` 입니다.)
+ **Port**는 3306을 설정합니다.
+ : 본 포스팅에서는 **default**값을 선택합니다.<br>
+ Mysql 기본 포트는 `3306` 입니다.
 
 💡**알고가기**<br><br>
  :![image](https://user-images.githubusercontent.com/131929869/236675166-e25fc5cb-8014-4527-af16-ba0d83ec4f3b.png)
@@ -128,8 +132,8 @@ last_modified_at: 2023-05-07
  **첫번째 항목**을 선택합니다.
 
 💡**알고가기**<br><br>
- : **첫번째 항목을 선택할 경우**, **SHA-256기반의 비밀번호 암호화** 방식이 적용됩니다.<br>
- **두번째 항목을 선택할 경우**, MySQL 5.7.5버전 이전에 사용되던 Legacy Authentication 방식이 사용되며 **<u>비밀번호가 암호화되지 않은 상태로 저장</u>**되기 때문에, **보안에 취약**합니다.
+ : 🔹**첫번째 항목** : **SHA-256기반의 비밀번호 암호화** 방식이 적용됩니다.<br>
+ 🔹**두번째 항목** : MySQL 5.7.5버전 이전에 사용되던 Legacy Authentication 방식이 사용되며 **<u>비밀번호가 암호화되지 않은 상태로 저장</u>**되기 때문에, **보안에 취약**합니다.
  {: .notice--info}
 
 ## 비밀번호 설정 및 사용자 추가
@@ -139,7 +143,8 @@ last_modified_at: 2023-05-07
 > 
  **Root의 패스워드를 입력합니다.**<br>
 >
- 하단의 경우 필요시 사용 계정을 추가할 수 있습니다.(저는 넘어가도록하겠습니다.)
+ 하단의 경우 필요시 사용 계정을 추가할 수 있습니다.
+ : 본 포스팅에서는 추가하지 않겠습니다.
 
 ⚠️ **비밀번호를 잊어버리지말고 잘 기억하세요.**<br>
 {: .notice--warning}
@@ -150,12 +155,12 @@ last_modified_at: 2023-05-07
 ![image](https://user-images.githubusercontent.com/131929869/236675611-e2ddaedc-fc58-4b00-9bf8-05b8e7cf95d0.png)
 
 >
- **기본값으로 선택 후 `Next`를 클릭합니다.**<br>
+ 기본값으로 선택 후 **Next**를 클릭합니다.<br>
 
 💡**알고가기**<br><br>
- : MySQL의 동작 시점에 대한 설정을 하는 단계입니다.<br>
- **가이드대로 진행할 경우**, MySQL이 서비스에 등록되어 부팅시 자동으로 실행됩니다.<br>
- **만약 체크하지 않을 경우**, 서비스가 등록되지 않으며 수동으로 MySQL 서버를 실행시켜야합니다.
+ : MySQL의 동작 시점에 대한 설정을 하는 단계입니다.<br><br>
+ 🔹**가이드대로 진행할 경우**, MySQL이 서비스에 등록되어 부팅시 자동으로 실행됩니다.<br>
+ 🔹**만약 체크하지 않을 경우**, 서비스가 등록되지 않으며 수동으로 MySQL 서버를 실행시켜야합니다.
  {: .notice--info}
 
 ## 서버 파일 권한
@@ -163,7 +168,8 @@ last_modified_at: 2023-05-07
 ![image](https://user-images.githubusercontent.com/131929869/236675631-f9a3b168-03a0-4bb2-b1fb-dae393ce3b50.png)
 
 >
- **첫번째 항목**을 선택 후 **`Next`**를 클릭합니다.(기본값)
+ **첫번째 항목**을 선택 후 **Next**를 클릭합니다.
+  : 본 포스팅에서는 **default**값을 선택했습니다.
 
 💡**알고가기**<br><br>
  : MySQL 데이터 디렉터리를 보호하기 위한 단계입니다.<br>
@@ -175,7 +181,7 @@ last_modified_at: 2023-05-07
 ## 구성 적용
 
 지금까지 위 단계에서 설정했던 내용을 적용시키는 단계입니다.<br>
-참고용으로 확인만 하시고 `Next`,`Execute`,`Finsh` 를 계속 클릭 해주시면 됩니다.
+참고용으로 확인만 하시고 **Next, Execute, Finsh** 를 계속 클릭 해주시면 됩니다.
 {: .notice}
 
 ![image](https://user-images.githubusercontent.com/131929869/236675681-1fce0ba7-766d-4013-976c-2192a1c858a4.png)
@@ -207,7 +213,7 @@ last_modified_at: 2023-05-07
 
 >
  1️⃣ **`Win` + `R`**를 동시에 눌러 **실행** 도구를 엽니다.<br>
- 2️⃣ **services.msc**를 입력하고 **`확인`**을 클릭합니다.
+ 2️⃣ **services.msc**를 입력하고 **확인**을 클릭합니다.
 
 ![image](https://user-images.githubusercontent.com/131929869/236675560-0af22658-f2ee-4faf-b668-73f33b9dceae.png)
 
