@@ -1,6 +1,6 @@
 ---
 title: "[CS] MDD(Model Driven Development)"
-excerpt: ""
+excerpt: "MDD란?"
 categories:
   - se
 tags:
@@ -57,7 +57,7 @@ last_modified_at: 2023-05-10
 {:.notice--info}
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-# [3] MDD 출현 배경
+# [3] MDD 등장 배경
 
 기존 방법론에서는 분석, 설계, 구현, 테스트, 유지보수 등의 과정에서 많은 **<span style="color:red">인적자원과 시간, 비용이 소요</span>**되었으며,<br>
 **<span style="color:red">개발자와 고객 사이의 의사소통</span>**이 원활하지 않아 **<span style="color:red">요구사항이나 변경사항에 대한 대응이 어렵다</span>**는 문제가 있었습니다.<br><br>
@@ -108,6 +108,7 @@ MDD의 출현 이전에도 **소프트웨어 개발 복잡성, 비용 증가, �
         모델을 기반으로 코드를 자동 생성할 수 있으므로, 개발자가 직접 코드를 작성하는 데 필요한 시간과 비용을 절약할 수 있습니다.
     - **<span style="color:#2cae67">재사용 가능한 표준화된 모델</span>**<br>
         모델링 메타모델을 표준화하므로, 향후 다른 프로젝트에서 재사용할 수 있는 표준화된 모델을 만들 수 있습니다.
+<br><br>
 
 - **MDD의 제약요인**
     - **MDD 도구의 유연성 및 비용 산정 문제**<br>
@@ -117,7 +118,7 @@ MDD의 출현 이전에도 **소프트웨어 개발 복잡성, 비용 증가, �
         기술 문헌 및 연구가 많지 않아, <u>충분한 이해와 검증이 이루어지지 않은 상태</u>입니다.
 
 
-![image](https://github.com/kunheelib/kunheelib.github.io/assets/131929869/1ef99bd2-d7d3-4e44-80f8-b4690beb1171)
+![image](https://github.com/kunheelib/kunheelib.github.io/assets/131929869/1ef99bd2-d7d3-4e44-80f8-b4690beb1171){: .align-center width="90%"}
 
 💡**알고가기**<br><br>
  : MDD 이전 유사한 개념으로 객체지향방법(OOM), 컴포넌트기반(CBD)이 있었습니다.<br>

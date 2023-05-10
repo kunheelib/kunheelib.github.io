@@ -20,6 +20,17 @@ date: 2023-05-08
 last_modified_at: 2023-05-10
 ---
 
+<!--
+📌 **개발 환경**
+ : 
+    🔹 **OS** : Windows 11<br>
+    🔹 **Java** : jdk1.8.0_351<br>
+    🔹 **Git** : 2.40.1.windows.1<br>
+    🔹 **Tomcat** : apache-tomcat-9.0.71<br>
+    🔹 **IntelliJ IDEA** : 2020.1
+{:.notice--primary}
+-->
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [1] GitHub Token 생성
 
