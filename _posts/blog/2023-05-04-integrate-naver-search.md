@@ -1,6 +1,6 @@
 ---
 title: "[GitHub Blog] 블로그 검색 노출하기 - Naver Search Advisor"
-excerpt: ""
+excerpt: "GitHub 블로그에 네이버 검색 기능 추가하기: Jekyll을 이용한 검색 기능 구현 방법"
 categories:
   - blog
 tags:

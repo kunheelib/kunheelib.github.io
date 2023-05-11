@@ -1,6 +1,6 @@
 ---
 title: "[GitHub Blog] 블로그 방문자 수 표시하기"
-excerpt: ""
+excerpt: "GitHub 블로그에 방문자 수 표시하는 방법: Hits 사용하기"
 categories:
   - blog
 tags:

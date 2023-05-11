@@ -1,6 +1,6 @@
 ---
 title: "[Language] Markdown(마크다운)"
-excerpt: ""
+excerpt: "Markdown 소개: 쉽고 간편한 마크업 언어"
 categories:
   - markdown
 tags:

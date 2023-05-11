@@ -1,6 +1,6 @@
 ---
 title: "[Database] Mysql 설치하기"
-excerpt: ""
+excerpt: "Windows MySQL 설치 가이드"
 categories:
   - mysql
 tags:

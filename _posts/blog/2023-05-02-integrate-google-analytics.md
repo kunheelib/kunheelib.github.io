@@ -1,6 +1,6 @@
 ---
 title: "[GitHub Blog] 블로그 방문 통계 보기 - Google Analytics"
-excerpt: ""
+excerpt: "블로그 트래픽 분석하기: Google Analytics를 이용한 방문자 추적 방법"
 categories:
   - blog
 tags:

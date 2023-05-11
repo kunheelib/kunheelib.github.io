@@ -1,6 +1,6 @@
 ---
 title: "[GitHub Blog] 블로그 시작하기"
-excerpt: ""
+excerpt: "GitHub 블로그 만들기: Jekyll을 이용한 블로그 시작하기"
 categories:
   - blog
 tags:

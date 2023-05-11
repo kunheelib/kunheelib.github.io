@@ -1,6 +1,6 @@
 ---
 title: "[IntelliJ] Maven & Spring 프로젝트 만들기"
-excerpt: ""
+excerpt: "IntelliJ에서 Maven과 Spring을 활용한 프로젝트 생성하기"
 categories:
   - tool
 tags:

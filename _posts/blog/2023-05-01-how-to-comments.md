@@ -1,6 +1,6 @@
 ---
 title: "[GitHub Blog] 블로그 댓글 기능 추가하기"
-excerpt: ""
+excerpt: "GitHub 블로그에 utterances 댓글 기능 추가하기"
 categories:
   - blog
 tags:

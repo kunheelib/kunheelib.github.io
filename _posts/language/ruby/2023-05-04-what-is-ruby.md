@@ -1,6 +1,6 @@
 ---
 title: "[Language] Ruby(루비)"
-excerpt: ""
+excerpt: "루비(Ruby)란 무엇인가요?"
 categories:
   - ruby
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "[Language] Markdown(마크다운) 사용법"
-excerpt: ""
+excerpt: "Markdown 사용법: 기본 문법부터 확장 기능까지"
 categories:
   - markdown
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "[GitHub Blog] 블로그 광고 달기 - Google Adsense"
-excerpt: ""
+excerpt: "GitHub 블로그에 광고 넣기: Jekyll과 AdSense를 활용한 광고 배치 방법"
 categories:
   - blog
 tags:

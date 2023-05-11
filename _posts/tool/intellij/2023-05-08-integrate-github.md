@@ -1,6 +1,6 @@
 ---
 title: "[IntelliJ] Git 연동하기 - GitHub"
-excerpt: ""
+excerpt: "IntelliJ에서 GitHub 연동하는 방법"
 categories:
   - tool
 tags:
