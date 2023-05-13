@@ -397,7 +397,7 @@ last_modified_at: 2023-05-09
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # [8] 테스트
 
-## 데이터베이스
+## [8.1] 데이터베이스
 
 ![image](https://user-images.githubusercontent.com/131929869/236760494-c92e2d61-ba95-40be-be8e-0a9c286e108c.png)
 
@@ -438,7 +438,7 @@ public class JdbcConnectTest {
 >
   **테스트를 실행 후 정상일 경우 log에서 같은 내용을 확인할 수 있습니다.**
 
-## Spring
+## [8.2] Spring
 
 ![image](https://user-images.githubusercontent.com/131929869/236754477-11da5b63-7e66-4dec-a81f-044f50a6a057.png)
 

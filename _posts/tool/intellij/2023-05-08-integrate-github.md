@@ -132,7 +132,7 @@ last_modified_at: 2023-05-10
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # [2] 연동하기
 
-## GitHub 계정 연결
+## [2.1] GitHub 계정 연결
 
 ![image](https://user-images.githubusercontent.com/131929869/236864470-a4269f01-703a-4e53-8cdd-790bee4e985a.png)
 
@@ -164,7 +164,7 @@ last_modified_at: 2023-05-10
 >
  **계정의 저장소들이 보여지며 연결이 된 것을 확인할 수 있습니다.**
 
-## GitHub Repository 연결
+## [2.2] GitHub Repository 연결
 
 ![image](https://user-images.githubusercontent.com/131929869/236864481-2e55254f-1c02-4aa0-9d27-891174afba5b.png)
 

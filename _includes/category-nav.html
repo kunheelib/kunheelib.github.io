@@ -21,6 +21,15 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <!--Web-->
+            <span class="nav__sub-title">웹</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "nodejs" %}
+                        <li><a href="/categories/nodejs" class="">Node.js</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <!--Database-->
             <span class="nav__sub-title">데이터베이스</span>
             <ul>

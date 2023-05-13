@@ -147,3 +147,6 @@ MVP(Minimum Viable Product)란 **최소 기능 제품**이라는 뜻을 가지�
 - [**한국과학기술정보연구원(KISTI)**](https://koreascience.kr/article/JAKO201026055835754.page)
 - [**KnowledgeHut**](https://www.knowledgehut.com/interview-questions/scrum)
 - [**Scrum.org**](https://www.scrum.org/)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+이상 포스팅을 마치겠습니다.
