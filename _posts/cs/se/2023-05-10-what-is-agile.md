@@ -130,7 +130,7 @@ MVP(Minimum Viable Product)란 **최소 기능 제품**이라는 뜻을 가지�
 팀원들은 작업을 수행하면서 지속적인 개선을 추진하며, 이를 위해 **리트로스펙티브라는 회고**를 수행합니다.
 {:.notice}
 
-![image](https://github.com/kunheelib/kunheelib.github.io/assets/131929869/611104a2-035e-4899-bdfe-ae8d1e20543e){: .align-center width="90%"}
+![image](https://github.com/kunheelib/kunheelib.github.io/assets/131929869/3f9bd438-e47b-4e33-ab62-63abeaec4f73){: .align-center width="90%"}
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # [5] 요약
