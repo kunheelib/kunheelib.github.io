@@ -34,6 +34,13 @@
             <span class="nav__sub-title">데이터베이스</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "db-cmn" %}
+                        <li><a href="/categories/db-cmn" class="">DB 공통</a><span> ( {{category[1].size}} )</span></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "mysql" %}
                         <li><a href="/categories/mysql" class="">Mysql</a><span> ( {{category[1].size}} )</span></li>
                     {% endif %}

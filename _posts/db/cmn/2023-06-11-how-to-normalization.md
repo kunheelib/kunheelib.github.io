@@ -2,7 +2,7 @@
 title: "[Database] 데이터베이스 정규화하기"
 excerpt: "데이터베이스 정규화 방법: 이해하기 쉽고 유지보수 가능한 데이터 모델링"
 categories:
-  - db
+  - db-cmn
 tags:
   - db
   - normalization
@@ -13,7 +13,7 @@ toc_sticky: true
 toc_label: "목차"
 toc_icon: "list"
 
-date: 2023-06-11
+date: 2023-08-16
 last_modified_at: 2023-08-16
 ---
 
